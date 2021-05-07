@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Oswald:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header--line {
+    background-color: #117050;
+    height: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1145px;
+    margin: auto;
+}
+
+.header--area {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header--left img{
+    width: 64px;
+    height: 64px;
+}
+
+.header--right {
+    display: flex;
+    align-items: center;
+}
+.header--right form {
+    display: flex;
+    align-items: center;
+}
+.header--search input {
+    font-size: 16px;
+    padding: 10px 13px;
+    outline: 0;
+    border: 1px solid #999999;
+    width: 220px;
+}
+.header--search button {
+    border: 0;
+    background-color: transparent;
+    margin-left: -40px;
+}
+.header--search button img {
+    width: 20px;
+    height: 20px;
+}
+
+.header--right .header--menu img {
+    width: 35px;
+    height: 35px;
+    margin-left: 70px;
+}
