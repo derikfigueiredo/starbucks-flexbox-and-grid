@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open-sans', 'sans-serif';
+    font-family: 'Open Sans', 'sans-serif';
 }
 
 .header--line {
@@ -68,15 +68,28 @@ h1 {
 h2 {
     font-size: 50px;
     font-family: 'Oswald', 'sans-serif';
-    line-height: 45px;
+    line-height: 60px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 .bar {
     background-color: #117050;
     height: 22px;
     width: 168px;
 }
-
+.button {
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 30px;
+    width: fit-content;
+    text-decoration: none;
+    color: #454545;
+    text-align: center;
+}
+.button:hover {
+    background-color: #333;
+    color: #FFF;
+}
 /*------------- BANNER --------------*/
 .banner {
     background-image: url('../images/bg.jpg');
@@ -108,9 +121,18 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
 }
 .area1--content {
-    padding: 50px;
+    padding: 80px;
     display: flex;
     flex-direction: column;
+}
+.area1--content .area1--quote {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.area1--content .area1--text {
+    font-size: 17px;
+    margin-bottom: 50px;
+    line-height: 25px;
 }
 .area1--img1 {
     background-image: url('../images/f2.jpg');
@@ -126,3 +148,63 @@ h2 {
     grid-row: 1 / 3;
 }
 /*----------------------------------------*/
+
+
+
+/*---------------- AREA 2 ------------------*/
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area2--content {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.area2--content .area2--text {
+    font-size: 17px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.area2--img1 {
+    background-image: url('../images/f4.jpg');
+    background-size: cover;
+    background-position: center;    
+    height: 450px;
+}
+.area2--img2 {
+    background-image: url('../images/f3.jpg');
+    background-size: cover;
+    background-position: center;    
+    grid-column: 1 / 2;
+    grid-row: 1 / 3
+}
+/*----------------------------------------*/
+
+
+/*--------------- AREA 3 -----------------*/
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area3--content {
+    padding: 200px 80px;
+}
+.area3--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+    font-size: 17px;
+}
+.area3--img {
+    background-image: url('../images/f5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/*----------------------------------------*/
+
+
+
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+
